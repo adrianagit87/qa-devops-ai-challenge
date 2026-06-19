@@ -1,0 +1,94 @@
+name: QA CI Pipeline
+
+# Quality Gates: este pipeline se ejecuta en cada Pull Request hacia main
+# y también en pushes a ramas de trabajo. Si cualquier job falla, el PR no
+# debería integrarse (configurar como required checks en la protección de rama).
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [feature/**]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Gate 1: Pruebas automatizadas + generación de reporte + publicación de artefactos
+  # ---------------------------------------------------------------------------
+  automated-tests:
+    name: Pruebas automatizadas
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: 3. Instalación de dependencias
+        run: npm ci
+
+      - name: 4. Ejecución de pruebas automatizadas + reporte JUnit
+        run: |
+          mkdir -p evidence
+          npm run test:ci 2>&1 | tee evidence/test-console.log
+
+      - name: 5. Publicación de artefactos (reporte y logs)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-evidence
+          path: |
+            evidence/junit-report.xml
+            evidence/test-console.log
+          retention-days: 30
+
+  # ---------------------------------------------------------------------------
+  # Gate 2: Prueba de performance con K6 (thresholds = quality gate de rendimiento)
+  # ---------------------------------------------------------------------------
+  performance:
+    name: Performance (K6)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar K6
+        uses: grafana/setup-k6-action@v1
+
+      - name: Ejecutar prueba de carga (thresholds hacen de gate)
+        run: |
+          mkdir -p performance/k6/results
+          k6 run \
+            --summary-export performance/k6/results/login-summary.json \
+            performance/k6/login-load-test.js 2>&1 | tee performance/k6/results/login-console.txt
+
+      - name: Publicar resultados de performance
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: performance-evidence
+          path: performance/k6/results/
+          retention-days: 30
+
+  # ---------------------------------------------------------------------------
+  # Gate 3 (DevSecOps): escaneo de secretos expuestos en el repositorio
+  # ---------------------------------------------------------------------------
+  secrets-scan:
+    name: Escaneo de secretos (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout completo (historial para escanear)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ejecutar gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
