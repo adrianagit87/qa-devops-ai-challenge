@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Entorno / secretos (NUNCA versionar)
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+
+# Resultados generados localmente (se regeneran; los de evidencia versionada van aparte)
+performance/k6/results/*.json
+!performance/k6/results/.gitkeep
+performance/jmeter/results/*.jtl
+performance/jmeter/results/*.log
+!performance/jmeter/results/.gitkeep
+
+# Reportes temporales
+evidence/junit-report.xml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

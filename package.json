@@ -1,0 +1,26 @@
+{
+  "name": "qa-devops-ai-challenge",
+  "version": "1.0.0",
+  "description": "Flujo completo de calidad para la API QA Store: tests automatizados, CI/CD, quality gates, performance (K6/JMeter) y testing de IA.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.js\"",
+    "test:ci": "node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=evidence/junit-report.xml \"tests/**/*.test.js\"",
+    "perf:k6": "k6 run performance/k6/login-load-test.js"
+  },
+  "keywords": [
+    "qa",
+    "devops",
+    "ci-cd",
+    "performance-testing",
+    "k6",
+    "jmeter",
+    "quality-gates",
+    "ai-testing"
+  ],
+  "author": "Adriana Troche",
+  "license": "MIT"
+}
