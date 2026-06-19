@@ -1,5 +1,5 @@
 /**
- * Prueba de performance con K6 — Login de QA Store.
+ * Prueba de performance con K6 — Login de Academia Sin Humo.
  *
  * Objetivo: validar que POST /api/login responde correctamente bajo carga,
  * medir tiempos de respuesta y hacer cumplir thresholds de aceptación.
