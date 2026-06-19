@@ -1,0 +1,22 @@
+# Configuración de gitleaks para QA CI Pipeline.
+# Extiende el set de reglas por defecto y agrega un allowlist acotado.
+[extend]
+useDefault = true
+
+[allowlist]
+description = """Credenciales de DEMO publicas del playground de la academia \
+(ana.garcia@ejemplo.com / Segura2026!, password de registro de prueba \
+Holamundo1123). NO son secretos reales ni pertenecen a ningun usuario: \
+son datos de prueba provistos para el reto. Se allowlistean de forma \
+explicita y acotada en lugar de desactivar el escaneo."""
+regexes = [
+  '''Segura2026!''',
+  '''Holamundo1123''',
+]
+paths = [
+  '''tests/helpers/config.js''',
+  '''performance/k6/login-load-test.js''',
+  '''performance/jmeter/.*\.jmx''',
+  '''docs/.*\.md''',
+  '''README\.md''',
+]
