@@ -8,20 +8,18 @@ node_modules/
 *.key
 secrets.json
 
-# Resultados generados localmente (se regeneran; los de evidencia versionada van aparte)
-performance/k6/results/*.json
-!performance/k6/results/.gitkeep
-performance/jmeter/results/*.jtl
-performance/jmeter/results/*.log
-!performance/jmeter/results/.gitkeep
-
-# Reportes temporales
+# Reporte JUnit temporal: lo regenera el pipeline como artefacto en cada corrida
 evidence/junit-report.xml
 
 # Sistema operativo
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Logs de dependencias
 npm-debug.log*
+
+# NOTA: los resultados en performance/k6/results/ y performance/jmeter/results/
+# SÍ se versionan a propósito: son la evidencia de ejecución que pide el reto.
+
+# Log suelto de JMeter en la raiz (el de evidencia vive en performance/jmeter/results/)
+/jmeter.log
