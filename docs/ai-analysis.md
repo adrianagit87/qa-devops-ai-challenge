@@ -1,23 +1,30 @@
-# Testing de Sistemas de Inteligencia Artificial — Asistente de Academia Sin Humo
+# Testing de Sistemas de Inteligencia Artificial — Asistente (simulado) de Academia Sin Humo
 
 ## Contexto
 
-Academia Sin Humo ofrece un **asistente de IA (LLM)** para responder preguntas de los
-estudiantes sobre cursos, inscripciones, prerequisitos, certificados y devoluciones. A
-diferencia del software tradicional, un LLM es **no determinista**: la misma pregunta puede
-producir respuestas distintas, y puede "alucinar" (inventar información con tono seguro).
-Por eso la validación se centra en tres ejes:
+> ⚠️ **Importante — escenario simulado:** Academia Sin Humo **NO tiene hoy** un asistente de
+> IA en producción. La Parte 7 del reto pide explícitamente *"Simular la validación de una
+> funcionalidad basada en IA"*, así que este documento evalúa un asistente LLM **hipotético
+> propuesto** para la academia. El objetivo es demostrar el **método de evaluación de sistemas
+> de IA** (matriz de casos, ejes de evaluación, detección de alucinaciones), no auditar una
+> feature existente. La matriz es directamente reutilizable contra un asistente real el día
+> que se implemente: solo hay que reemplazar la columna "Respuesta obtenida" por la salida real.
+
+**Escenario propuesto:** un asistente de IA (LLM) que respondería preguntas de los estudiantes
+sobre cursos, inscripciones, prerequisitos, certificados y devoluciones. A diferencia del
+software tradicional, un LLM es **no determinista**: la misma pregunta puede producir
+respuestas distintas, y puede "alucinar" (inventar información con tono seguro). Por eso la
+validación se centra en tres ejes:
 
 - **Relevancia:** ¿la respuesta atiende lo que el estudiante preguntó?
 - **Coherencia:** ¿es lógica, consistente y bien estructurada?
 - **Alucinaciones:** ¿inventa datos (precios, cursos, plazos, políticas) que no existen?
 
-> **Nota metodológica:** las respuestas documentadas son representativas de la salida típica
-> de un asistente LLM genérico ante estos prompts. El objetivo del reto es demostrar el
-> **método de evaluación QA**, no auditar un modelo productivo específico. La matriz es
-> directamente reutilizable contra un asistente real cambiando la columna "Respuesta
-> obtenida" por la salida real. (La academia, de hecho, dicta un curso `ia-para-qa` sobre
-> exactamente esto.)
+> **Nota metodológica:** las respuestas documentadas son **representativas** de la salida
+> típica de un asistente LLM genérico ante estos prompts (no provienen de un modelo conectado
+> a la app, porque la app no lo tiene). Los datos de cursos contra los que se evalúa la
+> precisión sí son **reales** (`GET /api/courses`). Dato de color: la academia dicta un curso
+> `ia-para-qa` sobre exactamente esta disciplina.
 
 ## Criterios de evaluación
 
@@ -154,7 +161,7 @@ consigna de **revisión y ajuste humano**.
 - **Todo se verificó ejecutando requests reales** contra el playground antes de escribirlo.
   Los 6 bugs documentados (R-1, R-2, L-1, L-2, I-1, I-3) fueron **reproducidos en vivo** con
   `curl` y cubiertos por tests automatizados — no se asumió ninguno desde el código.
-- Los números de performance (K6 p95=571ms, JMeter p95=475ms) provienen de ejecuciones reales.
+- Los números de performance (K6 p95=571ms, JMeter p95=483ms) provienen de ejecuciones reales.
 - Las credenciales: se confirmó que la credencial personal daba 401 y se descartó del repo;
   solo se versionaron las credenciales de **demo públicas**.
 
