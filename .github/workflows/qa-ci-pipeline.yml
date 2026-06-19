@@ -33,10 +33,13 @@ jobs:
       - name: 3. Instalación de dependencias
         run: npm ci
 
-      - name: 4. Ejecución de pruebas automatizadas + reporte JUnit
+      - name: 4. Ejecución de pruebas de contrato + reporte JUnit
         run: |
           mkdir -p evidence
           npm run test:ci 2>&1 | tee evidence/test-console.log
+
+      - name: 4b. Reporte de bugs conocidos (informativo, no bloquea)
+        run: npm run test:bugs 2>&1 | tee evidence/bugs-console.log
 
       - name: 5. Publicación de artefactos (reporte y logs)
         if: always()
@@ -46,6 +49,7 @@ jobs:
           path: |
             evidence/junit-report.xml
             evidence/test-console.log
+            evidence/bugs-console.log
           retention-days: 30
 
   # ---------------------------------------------------------------------------

@@ -112,19 +112,29 @@ qa-devops-ai-challenge/
 
 ## 🧪 Estrategia de testing
 
-- **Tests de contrato (verde):** validan que las funcionalidades correctas responden según
-  su contrato (status codes, estructura). Son los que sostienen los Quality Gates.
-- **Tests de caza de bugs (`todo`):** afirman el comportamiento **correcto** según la spec.
-  Como la app tiene defectos, fallan a propósito y se marcan como `todo` (defecto conocido):
-  documentan el bug **sin tumbar el pipeline**. Si la app se corrige, se quita el `todo` y
-  pasan a verde — convirtiéndose en tests de regresión.
+Los tests están separados en dos carpetas con propósitos distintos:
+
+- **Tests de contrato** (`tests/api/`, comando `npm test`): validan que las funcionalidades
+  correctas responden según su contrato (status codes, estructura). Pasan 100% en verde y
+  son los que sostienen los Quality Gates.
+- **Tests de caza de bugs** (`tests/bugs/`, comando `npm run test:bugs`): afirman el
+  comportamiento **correcto** según la spec. Como la app tiene defectos, su aserción no pasa
+  y se marcan como `todo` (defecto conocido): documentan el bug **sin contar como fallo**
+  (`fail 0`, exit 0). Si la app se corrige, se quita el `todo` y pasan a verde, convirtiéndose
+  en tests de regresión.
+
+> **Nota:** al correr los tests de bugs, Node los imprime con una ✖ y un `AssertionError`
+> bajo el encabezado "failing tests". **No son fallos** — fijate siempre en el resumen
+> (`fail 0`) y el exit code (`0`). Son los defectos documentados a propósito.
 
 ## 🚀 Cómo ejecutar las pruebas
 
 ```bash
 npm ci             # instala dependencias (reproducible)
-npm test           # 14 contratos en verde + 6 bugs como todo (exit 0)
-npm run test:ci    # genera además el reporte JUnit en evidence/
+npm test           # 15 tests de contrato — 100% verde, sin ✖
+npm run test:bugs  # 6 defectos documentados (todo) — exit 0
+npm run test:all   # contratos + bugs juntos
+npm run test:ci    # contratos + reporte JUnit en evidence/ (lo que corre el pipeline)
 npm run perf:k6    # prueba de carga K6
 ```
 
@@ -151,7 +161,7 @@ Para aprobar un PR hacia `main`, **todos** estos criterios deben cumplirse
 
 | Quality Gate | Criterio | Estado |
 | ------------ | -------- | ------ |
-| Tests de contrato | 100% pasan | ✅ 14/14 |
+| Tests de contrato | 100% pasan | ✅ 15/15 |
 | Tasa de error (performance) | < 1% | ✅ 0.00% |
 | Tiempo de respuesta | p95 < 800 ms | ✅ 571 ms (K6) / 475 ms (JMeter) |
 | Sin secretos expuestos | 0 leaks | ✅ gitleaks |

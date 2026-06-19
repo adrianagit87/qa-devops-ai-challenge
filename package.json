@@ -7,8 +7,10 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test --test-reporter=spec \"tests/**/*.test.js\"",
-    "test:ci": "node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=evidence/junit-report.xml \"tests/**/*.test.js\"",
+    "test": "node --test --test-reporter=spec \"tests/api/**/*.test.js\"",
+    "test:bugs": "node --test --test-reporter=spec \"tests/bugs/**/*.test.js\"",
+    "test:all": "node --test --test-reporter=spec \"tests/**/*.test.js\"",
+    "test:ci": "node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=evidence/junit-report.xml \"tests/api/**/*.test.js\"",
     "perf:k6": "k6 run performance/k6/login-load-test.js"
   },
   "keywords": [

@@ -81,7 +81,7 @@ cumplirse. Si alguno falla, el merge queda bloqueado.
 
 | # | Quality Gate | Criterio de aceptación | Cómo se verifica | Estado actual |
 | - | ------------ | ---------------------- | ---------------- | ------------- |
-| 1 | **Pruebas de contrato** | 100% de los tests de contrato pasan (0 fallos) | Job `automated-tests` (reporte JUnit) | ✅ 14/14 |
+| 1 | **Pruebas de contrato** | 100% de los tests de contrato pasan (0 fallos) | Job `automated-tests` (reporte JUnit) | ✅ 15/15 |
 | 2 | **Tasa de error en performance** | Errores HTTP < 1% | Threshold K6 `http_req_failed: rate<0.01` | ✅ 0.00% |
 | 3 | **Tiempo de respuesta** | p95 < 800 ms en login bajo carga | Threshold K6 `http_req_duration: p(95)<800` | ✅ 571 ms |
 | 4 | **Sin secretos expuestos** | 0 secretos reales filtrados en el repo | Job `secrets-scan` (gitleaks) | ✅ no leaks |
