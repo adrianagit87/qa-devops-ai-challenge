@@ -75,7 +75,7 @@ Se reprodujeron y verificaron por API **6 defectos**, cubiertos por tests automa
 | L-2 | El tiempo de desbloqueo reportado (25s) no coincide con el real (30s) | Media |
 | I-3 | En curso lleno, el estado mostrado dice "inscrito" en vez de "lista-espera" | Baja |
 
-Detalle completo (18 hallazgos, técnica ISTQB, REQ violado y evidencia) en
+Detalle completo (17 hallazgos, técnica ISTQB, REQ violado y evidencia) en
 [`docs/hallazgos.md`](docs/hallazgos.md).
 
 ## 🧰 Herramientas utilizadas
