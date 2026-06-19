@@ -7,7 +7,8 @@ contiene bugs intencionales; este documento los reporta con técnica de diseño 
 
 > **Verificado en vivo:** los 6 hallazgos marcados con ✅ fueron reproducidos por API
 > contra el playground desplegado y están cubiertos por tests automatizados en
-> `tests/api/bugs.test.js` (marcados como `todo` / defecto conocido).
+> `tests/bugs/bugs.test.js` (se corren con `npm run test:bugs`; marcados como `todo` /
+> defecto conocido).
 
 > **Nota sobre los datos de prueba:** los bugs se reproducen sobre los **cursos de
 > playground** (`fundamentos`, `playwright-cero`, `api-testing`, …), que son fixtures de
@@ -19,10 +20,11 @@ contiene bugs intencionales; este documento los reporta con técnica de diseño 
 | Severidad | Cantidad | IDs |
 | --------- | -------- | --- |
 | Alta | 2 | I-1, P-2 |
-| Media | 9 | R-1, L-1, L-2, I-2, I-4, P-1, D-1, N-1, U-2 |
-| Baja | 7 | R-2*, R-3, I-3, D-2, N-2, U-1 |
+| Media | 10 | R-1, R-2, L-1, L-2, I-2, I-4, P-1, D-1, N-1, U-2 |
+| Baja | 5 | I-3, R-3, D-2, N-2, U-1 |
 
-\* R-2 se clasifica como Media por su impacto en integridad de datos (ver detalle).
+**Total: 17 defectos** (6 verificados por API + 11 documentados). R-2 se clasifica como Media
+por su impacto en la integridad de datos (emails inválidos persistidos).
 
 ---
 
@@ -139,7 +141,7 @@ de automatización futura.
 
 ## Conclusión
 
-Se identificaron **18 defectos**, de los cuales **6 fueron reproducidos y verificados por
+Se identificaron **17 defectos**, de los cuales **6 fueron reproducidos y verificados por
 API** con tests automatizados. El patrón dominante son fallos de **valores límite**
 (off-by-one) y de **consistencia de estado** entre lo reportado y lo real. El hallazgo más
 crítico es **I-1**: la API no replica las validaciones de negocio de la UI, lo que permite
