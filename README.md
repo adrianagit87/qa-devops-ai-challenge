@@ -179,4 +179,4 @@ alucinaciones) + sección de **uso responsable de IA** en
 
 ## 👤 Autora
 
-Adriana Troche — Máster en Calidad de Software.
+Adriana Troche — Máster Profesional en QA y Automatización de Pruebas.

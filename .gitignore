@@ -20,3 +20,6 @@ npm-debug.log*
 
 # NOTA: los resultados en performance/k6/results/ y performance/jmeter/results/
 # SÍ se versionan a propósito: son la evidencia de ejecución que pide el reto.
+
+# Log suelto de JMeter en la raiz (el de evidencia vive en performance/jmeter/results/)
+/jmeter.log
