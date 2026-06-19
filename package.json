@@ -1,7 +1,7 @@
 {
   "name": "qa-devops-ai-challenge",
   "version": "1.0.0",
-  "description": "Flujo completo de calidad para la API QA Store: tests automatizados, CI/CD, quality gates, performance (K6/JMeter) y testing de IA.",
+  "description": "Flujo completo de calidad para la API de Academia Sin Humo: tests automatizados, CI/CD, quality gates, performance (K6/JMeter) y testing de IA.",
   "type": "module",
   "engines": {
     "node": ">=20"

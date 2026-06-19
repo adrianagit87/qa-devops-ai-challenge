@@ -32,8 +32,9 @@ los cace aplicando técnicas de diseño de pruebas. Eso la convierte en un objet
 un portafolio QA real — acá no solo verificamos que algo funciona, también **demostramos los
 defectos** con evidencia reproducible.
 
-En el escenario del reto, Academia Sin Humo cumple el rol de la "QA Store": consultar
-productos (cursos), iniciar sesión y simular una compra (inscripción).
+El reto plantea un escenario genérico de tienda en línea; en este proyecto ese rol lo cumple
+la app **real** Academia Sin Humo: consultar productos (cursos), iniciar sesión y simular una
+compra (inscripción a un curso).
 
 ### Endpoints probados
 
@@ -103,9 +104,10 @@ qa-devops-ai-challenge/
 │   └── ai-analysis.md           # Matriz de testing de IA + uso responsable
 ├── performance/
 │   ├── k6/login-load-test.js    # Prueba de carga con thresholds
-│   └── jmeter/qa-store-flow.jmx # Escenario completo (registro→login→consulta→inscripción)
+│   └── jmeter/academia-sin-humo-flow.jmx # Escenario completo (registro→login→consulta→inscripción)
 ├── tests/
-│   ├── api/                     # Tests de contrato (verde) + caza de bugs (todo)
+│   ├── api/                     # Tests de contrato (npm test → verde)
+│   ├── bugs/                    # Tests de caza de bugs (npm run test:bugs → todo)
 │   └── helpers/config.js        # Config compartida
 └── package.json
 ```
@@ -141,7 +143,7 @@ npm run perf:k6    # prueba de carga K6
 Escenario JMeter:
 
 ```bash
-jmeter -n -t performance/jmeter/qa-store-flow.jmx \
+jmeter -n -t performance/jmeter/academia-sin-humo-flow.jmx \
   -l performance/jmeter/results/results.jtl \
   -e -o performance/jmeter/results/html-report
 ```
@@ -163,7 +165,7 @@ Para aprobar un PR hacia `main`, **todos** estos criterios deben cumplirse
 | ------------ | -------- | ------ |
 | Tests de contrato | 100% pasan | ✅ 15/15 |
 | Tasa de error (performance) | < 1% | ✅ 0.00% |
-| Tiempo de respuesta | p95 < 800 ms | ✅ 571 ms (K6) / 475 ms (JMeter) |
+| Tiempo de respuesta | p95 < 800 ms | ✅ 571 ms (K6) / 483 ms (JMeter) |
 | Sin secretos expuestos | 0 leaks | ✅ gitleaks |
 | Evidencia adjunta | artefactos publicados | ✅ |
 
@@ -172,12 +174,13 @@ Para aprobar un PR hacia `main`, **todos** estos criterios deben cumplirse
 | Herramienta | Carga | Errores | p95 | Veredicto |
 | ----------- | ----- | ------- | --- | --------- |
 | K6 (login) | 10 VUs / 60s / 357 reqs | 0.00% | 571 ms | ✅ Aprobado |
-| JMeter (flujo) | 10 usuarios / 5 iter / 200 muestras | 0.00% | 475 ms | ✅ Aprobado |
+| JMeter (flujo) | 10 usuarios / 5 iter / 200 muestras | 0.00% | 483 ms | ✅ Aprobado |
 
 ## 🤖 Testing de IA
 
-Matriz de casos evaluando un asistente LLM de la academia (relevancia, coherencia,
-alucinaciones) + sección de **uso responsable de IA** en
+Matriz de casos para evaluar un asistente LLM **simulado** (la app no tiene uno hoy; la Parte 7
+del reto pide *simular* la validación de una funcionalidad de IA). Cubre relevancia, coherencia
+y alucinaciones, + sección de **uso responsable de IA** en
 [`docs/ai-analysis.md`](docs/ai-analysis.md).
 
 ## 📌 Flujo de trabajo Git

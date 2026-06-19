@@ -1,201 +1,201 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1781876194113,1189,01 - POST Registro,201,Created,Usuarios QA Store 1-1,text,true,,922,301,2,2,https://playground.calidadsinhumo.com/api/register,1169,0,666
-1781876194925,378,01 - POST Registro,201,Created,Usuarios QA Store 1-2,text,true,,922,301,2,2,https://playground.calidadsinhumo.com/api/register,369,0,141
-1781876195311,526,02 - POST Login,200,OK,Usuarios QA Store 1-2,text,true,,835,248,2,2,https://playground.calidadsinhumo.com/api/login,525,0,147
-1781876195312,530,02 - POST Login,200,OK,Usuarios QA Store 1-1,text,true,,835,248,2,2,https://playground.calidadsinhumo.com/api/login,526,0,128
-1781876195926,396,01 - POST Registro,201,Created,Usuarios QA Store 1-3,text,true,,922,301,3,3,https://playground.calidadsinhumo.com/api/register,395,0,139
-1781876195840,521,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-2,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,521,0,135
-1781876195847,515,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-1,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,514,0,127
-1781876196324,340,02 - POST Login,200,OK,Usuarios QA Store 1-3,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,340,0,123
-1781876196363,562,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-1,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,561,0,127
-1781876196363,562,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-2,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,561,0,127
-1781876196666,390,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-3,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,389,0,183
-1781876196930,334,01 - POST Registro,201,Created,Usuarios QA Store 1-2,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,334,0,130
-1781876196952,421,01 - POST Registro,201,Created,Usuarios QA Store 1-4,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,420,0,138
-1781876196930,443,01 - POST Registro,201,Created,Usuarios QA Store 1-1,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,442,0,128
-1781876197062,339,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-3,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,339,0,130
-1781876197265,408,02 - POST Login,200,OK,Usuarios QA Store 1-2,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,407,0,199
-1781876197376,317,02 - POST Login,200,OK,Usuarios QA Store 1-1,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,317,0,119
-1781876197376,336,02 - POST Login,200,OK,Usuarios QA Store 1-4,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,336,0,125
-1781876197402,326,01 - POST Registro,201,Created,Usuarios QA Store 1-3,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,325,0,119
-1781876197676,334,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-2,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,334,0,121
-1781876197714,398,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-4,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,397,0,191
-1781876197695,417,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-1,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,416,0,210
-1781876197731,403,02 - POST Login,200,OK,Usuarios QA Store 1-3,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,403,0,174
-1781876197920,362,01 - POST Registro,201,Created,Usuarios QA Store 1-5,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,361,0,145
-1781876198013,407,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-2,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,406,0,127
-1781876198118,321,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-1,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,321,0,119
-1781876198118,325,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-4,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,325,0,122
-1781876198137,390,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-3,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,390,0,136
-1781876198283,361,02 - POST Login,200,OK,Usuarios QA Store 1-5,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,361,0,137
-1781876198422,308,01 - POST Registro,201,Created,Usuarios QA Store 1-2,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,308,0,115
-1781876198444,315,01 - POST Registro,201,Created,Usuarios QA Store 1-4,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,314,0,116
-1781876198441,321,01 - POST Registro,201,Created,Usuarios QA Store 1-1,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,319,0,120
-1781876198529,414,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-3,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,413,0,129
-1781876198645,337,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-5,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,337,0,123
-1781876198731,408,02 - POST Login,200,OK,Usuarios QA Store 1-2,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,408,0,124
-1781876198766,388,02 - POST Login,200,OK,Usuarios QA Store 1-1,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,387,0,186
-1781876198760,393,02 - POST Login,200,OK,Usuarios QA Store 1-4,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,393,0,192
-1781876198946,319,01 - POST Registro,201,Created,Usuarios QA Store 1-3,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,318,0,120
-1781876198924,366,01 - POST Registro,201,Created,Usuarios QA Store 1-6,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,365,0,159
-1781876198984,320,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-5,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,317,0,120
-1781876199142,327,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-2,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,325,0,125
-1781876199156,332,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-4,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,319,0,124
-1781876199156,333,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-1,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,319,0,124
-1781876199306,388,01 - POST Registro,201,Created,Usuarios QA Store 1-5,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,386,0,182
-1781876199292,402,02 - POST Login,200,OK,Usuarios QA Store 1-6,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,401,0,197
-1781876199269,426,02 - POST Login,200,OK,Usuarios QA Store 1-3,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,424,0,219
-1781876199471,322,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-2,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,320,0,123
-1781876199495,316,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-4,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,316,0,118
-1781876199495,326,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-1,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,325,0,122
-1781876199698,348,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-6,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,346,0,143
-1781876199698,348,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-3,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,346,0,143
-1781876199698,348,02 - POST Login,200,OK,Usuarios QA Store 1-5,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,346,0,143
-1781876199824,377,01 - POST Registro,201,Created,Usuarios QA Store 1-1,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,377,0,178
-1781876199793,418,01 - POST Registro,201,Created,Usuarios QA Store 1-2,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,417,0,209
-1781876199812,401,01 - POST Registro,201,Created,Usuarios QA Store 1-4,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,401,0,189
-1781876199918,386,01 - POST Registro,201,Created,Usuarios QA Store 1-7,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,386,0,190
-1781876200047,307,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-3,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,307,0,116
-1781876200047,318,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-5,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,318,0,117
-1781876200047,325,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-6,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,325,0,117
-1781876200210,320,02 - POST Login,200,OK,Usuarios QA Store 1-1,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,320,0,127
-1781876200212,321,02 - POST Login,200,OK,Usuarios QA Store 1-2,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,320,0,126
-1781876200214,319,02 - POST Login,200,OK,Usuarios QA Store 1-4,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,318,0,122
-1781876200355,367,01 - POST Registro,201,Created,Usuarios QA Store 1-3,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,367,0,170
-1781876200373,356,01 - POST Registro,201,Created,Usuarios QA Store 1-6,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,355,0,152
-1781876200366,365,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-5,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,364,0,159
-1781876200305,433,02 - POST Login,200,OK,Usuarios QA Store 1-7,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,433,0,219
-1781876200531,316,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-1,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,315,0,119
-1781876200534,326,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-4,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,325,0,125
-1781876200533,327,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-2,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,327,0,127
-1781876200740,319,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-7,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,317,0,111
-1781876200731,335,01 - POST Registro,201,Created,Usuarios QA Store 1-5,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,335,0,120
-1781876200729,337,02 - POST Login,200,OK,Usuarios QA Store 1-6,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,337,0,122
-1781876200725,360,02 - POST Login,200,OK,Usuarios QA Store 1-3,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,360,0,126
-1781876200850,388,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-1,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,387,0,190
-1781876200863,409,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-4,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,409,0,177
-1781876200863,421,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-2,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,421,0,177
-1781876200920,403,01 - POST Registro,201,Created,Usuarios QA Store 1-8,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,402,0,205
-1781876201068,320,02 - POST Login,200,OK,Usuarios QA Store 1-5,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,320,0,124
-1781876201068,329,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-6,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,329,0,124
-1781876201062,348,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-7,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,347,0,123
-1781876201086,330,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-3,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,329,0,127
-1781876201239,331,01 - POST Registro,201,Created,Usuarios QA Store 1-1,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,329,0,127
-1781876201274,321,01 - POST Registro,201,Created,Usuarios QA Store 1-4,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,321,0,123
-1781876201287,325,01 - POST Registro,201,Created,Usuarios QA Store 1-2,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,324,0,120
-1781876201329,329,02 - POST Login,200,OK,Usuarios QA Store 1-8,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,328,0,128
-1781876201411,358,01 - POST Registro,201,Created,Usuarios QA Store 1-7,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,356,0,158
-1781876201389,389,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-5,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,387,0,187
-1781876201417,363,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-3,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,362,0,164
-1781876201578,331,02 - POST Login,200,OK,Usuarios QA Store 1-1,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,331,0,128
-1781876201596,328,02 - POST Login,200,OK,Usuarios QA Store 1-4,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,328,0,121
-1781876201616,318,02 - POST Login,200,OK,Usuarios QA Store 1-2,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,317,0,119
-1781876201398,690,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-6,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,690,0,172
-1781876201770,318,02 - POST Login,200,OK,Usuarios QA Store 1-7,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,318,0,119
-1781876201659,430,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-8,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,429,0,129
-1781876201781,320,01 - POST Registro,201,Created,Usuarios QA Store 1-3,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,319,0,119
-1781876201780,375,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-5,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,375,0,122
-1781876201911,381,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-1,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,380,0,180
-1781876201934,358,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-2,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,357,0,157
-1781876201924,371,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-4,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,371,0,167
-1781876201915,404,01 - POST Registro,201,Created,Usuarios QA Store 1-9,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,403,0,182
-1781876202092,328,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-8,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,328,0,126
-1781876202102,318,02 - POST Login,200,OK,Usuarios QA Store 1-3,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,318,0,118
-1781876202091,346,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-7,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,345,0,132
-1781876202091,352,01 - POST Registro,201,Created,Usuarios QA Store 1-6,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,352,0,127
-1781876202156,316,01 - POST Registro,201,Created,Usuarios QA Store 1-5,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,316,0,120
-1781876202297,320,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-4,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,320,0,126
-1781876202293,340,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-1,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,339,0,130
-1781876202293,348,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-2,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,348,0,133
-1781876202324,319,02 - POST Login,200,OK,Usuarios QA Store 1-9,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,318,0,125
-1781876202424,384,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-3,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,383,0,192
-1781876202472,336,02 - POST Login,200,OK,Usuarios QA Store 1-5,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,335,0,144
-1781876202443,371,02 - POST Login,200,OK,Usuarios QA Store 1-6,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,369,0,173
-1781876202442,372,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-7,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,370,0,174
-1781876202424,403,01 - POST Registro,201,Created,Usuarios QA Store 1-8,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,402,0,192
-1781876202617,322,01 - POST Registro,201,Created,Usuarios QA Store 1-4,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,322,0,122
-1781876202644,324,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-9,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,323,0,118
-1781876202814,322,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-6,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,322,0,119
-1781876202810,326,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-3,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,326,0,117
-1781876202810,327,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-5,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,327,0,117
-1781876202814,352,01 - POST Registro,201,Created,Usuarios QA Store 1-7,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,323,0,119
-1781876202829,348,02 - POST Login,200,OK,Usuarios QA Store 1-8,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,348,0,124
-1781876202940,421,02 - POST Login,200,OK,Usuarios QA Store 1-4,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,421,0,219
-1781876202968,402,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-9,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,402,0,192
-1781876202919,465,01 - POST Registro,201,Created,Usuarios QA Store 1-10,text,true,,925,302,7,7,https://playground.calidadsinhumo.com/api/register,465,0,260
-1781876203138,344,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-5,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,344,0,148
-1781876203179,323,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-8,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,322,0,127
-1781876203137,365,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-6,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,364,0,156
-1781876203179,329,02 - POST Login,200,OK,Usuarios QA Store 1-7,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,328,0,125
-1781876203362,329,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-4,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,329,0,124
-1781876203385,322,02 - POST Login,200,OK,Usuarios QA Store 1-10,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,322,0,123
-1781876203372,334,01 - POST Registro,201,Created,Usuarios QA Store 1-9,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,333,0,124
-1781876203483,374,01 - POST Registro,201,Created,Usuarios QA Store 1-5,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,373,0,181
-1781876203504,352,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-8,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,352,0,160
-1781876203510,349,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-7,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,346,0,154
-1781876203504,364,01 - POST Registro,201,Created,Usuarios QA Store 1-6,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,363,0,160
-1781876203694,307,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-4,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,307,0,117
-1781876203711,310,02 - POST Login,200,OK,Usuarios QA Store 1-9,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,310,0,120
-1781876203711,327,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-10,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,327,0,120
-1781876203860,329,02 - POST Login,200,OK,Usuarios QA Store 1-5,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,329,0,119
-1781876203860,331,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-7,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,331,0,126
-1781876203860,330,01 - POST Registro,201,Created,Usuarios QA Store 1-8,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,328,0,119
-1781876203869,326,02 - POST Login,200,OK,Usuarios QA Store 1-6,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,325,0,125
-1781876204022,364,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-9,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,364,0,170
-1781876204039,350,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-10,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,350,0,154
-1781876204192,320,02 - POST Login,200,OK,Usuarios QA Store 1-8,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,320,0,129
-1781876204195,328,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-6,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,328,0,128
-1781876204192,331,01 - POST Registro,201,Created,Usuarios QA Store 1-7,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,331,0,129
-1781876204192,348,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-5,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,348,0,129
-1781876204389,320,01 - POST Registro,201,Created,Usuarios QA Store 1-10,text,true,,925,302,6,6,https://playground.calidadsinhumo.com/api/register,320,0,120
-1781876204386,323,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-9,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,322,0,118
-1781876204513,395,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-8,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,393,0,195
-1781876204541,367,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-5,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,365,0,168
-1781876204524,392,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-6,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,382,0,184
-1781876204525,391,02 - POST Login,200,OK,Usuarios QA Store 1-7,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,385,0,183
-1781876204710,315,01 - POST Registro,201,Created,Usuarios QA Store 1-9,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,314,0,121
-1781876204710,318,02 - POST Login,200,OK,Usuarios QA Store 1-10,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,318,0,121
-1781876204911,326,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-8,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,326,0,123
-1781876204917,334,01 - POST Registro,201,Created,Usuarios QA Store 1-6,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,332,0,128
-1781876204917,338,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-7,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,337,0,118
-1781876205026,410,02 - POST Login,200,OK,Usuarios QA Store 1-9,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,410,0,213
-1781876205029,413,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-10,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,413,0,210
-1781876205239,322,01 - POST Registro,201,Created,Usuarios QA Store 1-8,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,322,0,114
-1781876205252,323,02 - POST Login,200,OK,Usuarios QA Store 1-6,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,322,0,124
-1781876205256,327,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-7,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,327,0,121
-1781876205437,320,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-9,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,319,0,115
-1781876205443,335,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-10,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,335,0,121
-1781876205562,389,02 - POST Login,200,OK,Usuarios QA Store 1-8,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,389,0,195
-1781876205583,372,01 - POST Registro,201,Created,Usuarios QA Store 1-7,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,371,0,175
-1781876205575,398,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-6,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,398,0,182
-1781876205757,312,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-9,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,312,0,116
-1781876205778,311,01 - POST Registro,201,Created,Usuarios QA Store 1-10,text,true,,925,302,5,5,https://playground.calidadsinhumo.com/api/register,310,0,117
-1781876205951,334,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-8,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,333,0,120
-1781876205955,330,02 - POST Login,200,OK,Usuarios QA Store 1-7,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,329,0,122
-1781876205973,319,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-6,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,319,0,123
-1781876206090,380,02 - POST Login,200,OK,Usuarios QA Store 1-10,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,379,0,190
-1781876206071,519,01 - POST Registro,201,Created,Usuarios QA Store 1-9,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,519,0,120
-1781876206286,322,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-7,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,322,0,119
-1781876206286,361,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-8,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,360,0,119
-1781876206471,336,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-10,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,335,0,114
-1781876206591,320,02 - POST Login,200,OK,Usuarios QA Store 1-9,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,318,0,119
-1781876206648,357,01 - POST Registro,201,Created,Usuarios QA Store 1-8,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,357,0,160
-1781876206609,402,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-7,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,402,0,198
-1781876206808,315,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-10,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,315,0,123
-1781876206912,311,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-9,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,310,0,117
-1781876207007,323,02 - POST Login,200,OK,Usuarios QA Store 1-8,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,322,0,118
-1781876207124,430,01 - POST Registro,201,Created,Usuarios QA Store 1-10,text,true,,925,302,3,3,https://playground.calidadsinhumo.com/api/register,430,0,207
-1781876207224,410,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-9,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,410,0,212
-1781876207331,335,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-8,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,334,0,138
-1781876207556,335,02 - POST Login,200,OK,Usuarios QA Store 1-10,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,334,0,131
-1781876207636,316,01 - POST Registro,201,Created,Usuarios QA Store 1-9,text,true,,922,301,3,3,https://playground.calidadsinhumo.com/api/register,316,0,116
-1781876207668,381,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-8,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,381,0,189
-1781876207892,332,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-10,text,true,,406,171,2,2,https://playground.calidadsinhumo.com/api/progress,331,0,133
-1781876207953,321,02 - POST Login,200,OK,Usuarios QA Store 1-9,text,true,,835,248,2,2,https://playground.calidadsinhumo.com/api/login,320,0,127
-1781876208227,361,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-10,text,true,,1032,216,2,2,https://playground.calidadsinhumo.com/api/enroll,359,0,155
-1781876208275,385,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-9,text,true,,406,171,2,2,https://playground.calidadsinhumo.com/api/progress,382,0,188
-1781876208593,310,01 - POST Registro,201,Created,Usuarios QA Store 1-10,text,true,,925,302,2,2,https://playground.calidadsinhumo.com/api/register,309,0,116
-1781876208661,318,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-9,text,true,,1032,216,2,2,https://playground.calidadsinhumo.com/api/enroll,318,0,114
-1781876208903,309,02 - POST Login,200,OK,Usuarios QA Store 1-10,text,true,,835,248,1,1,https://playground.calidadsinhumo.com/api/login,308,0,117
-1781876209213,476,03 - GET Consulta progreso,200,OK,Usuarios QA Store 1-10,text,true,,406,171,1,1,https://playground.calidadsinhumo.com/api/progress,476,0,121
-1781876209690,337,04 - POST Inscripcion,200,OK,Usuarios QA Store 1-10,text,true,,1032,216,1,1,https://playground.calidadsinhumo.com/api/enroll,336,0,123
+1781893930192,1657,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-1,text,true,,922,301,2,2,https://playground.calidadsinhumo.com/api/register,1616,0,716
+1781893931003,1048,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-2,text,true,,922,301,3,3,https://playground.calidadsinhumo.com/api/register,1048,0,133
+1781893931853,400,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,399,0,184
+1781893931998,327,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-3,text,true,,922,301,3,3,https://playground.calidadsinhumo.com/api/register,327,0,131
+1781893932053,397,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,394,0,126
+1781893932254,419,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,418,0,209
+1781893932326,415,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,414,0,216
+1781893932456,323,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,323,0,122
+1781893932677,336,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,336,0,132
+1781893932742,389,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,388,0,121
+1781893932781,393,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,393,0,194
+1781893933015,485,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-1,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,482,0,255
+1781893933032,503,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-4,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,503,0,276
+1781893933132,470,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,456,0,211
+1781893933176,483,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-2,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,481,0,157
+1781893933503,416,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,413,0,216
+1781893933628,395,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,395,0,154
+1781893933661,362,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,362,0,132
+1781893933653,526,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-3,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,525,0,128
+1781893933922,415,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,415,0,210
+1781893934025,354,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,354,0,158
+1781893934024,355,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,355,0,159
+1781893933999,404,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-5,text,true,,922,301,5,5,https://playground.calidadsinhumo.com/api/register,403,0,209
+1781893934199,350,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,348,0,116
+1781893934381,390,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,387,0,178
+1781893934339,436,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,435,0,220
+1781893934381,396,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,396,0,178
+1781893934406,419,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,418,0,205
+1781893934555,359,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,358,0,130
+1781893934779,498,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-2,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,496,0,295
+1781893934777,505,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-1,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,504,0,297
+1781893934827,466,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,463,0,252
+1781893934916,381,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,380,0,164
+1781893934772,616,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-4,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,615,0,302
+1781893935004,406,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-6,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,403,0,194
+1781893935282,326,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,326,0,130
+1781893935285,323,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,323,0,127
+1781893935299,330,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-3,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,330,0,128
+1781893935295,334,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,334,0,132
+1781893935421,378,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,377,0,178
+1781893935392,431,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,431,0,112
+1781893935610,325,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,324,0,123
+1781893935610,333,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,333,0,124
+1781893935631,321,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-5,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,321,0,123
+1781893935631,340,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,339,0,138
+1781893935800,332,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,331,0,121
+1781893935824,320,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,319,0,119
+1781893935972,357,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,354,0,161
+1781893935935,394,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,391,0,198
+1781893935943,392,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,392,0,190
+1781893935952,391,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,390,0,181
+1781893936001,408,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-7,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,407,0,212
+1781893936134,325,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,325,0,123
+1781893936144,319,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,319,0,122
+1781893936335,317,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-1,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,317,0,118
+1781893936330,326,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-2,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,326,0,123
+1781893936330,326,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,326,0,123
+1781893936410,315,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,315,0,121
+1781893936464,377,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-4,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,377,0,179
+1781893936460,392,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-6,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,391,0,183
+1781893936658,310,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,309,0,121
+1781893936653,332,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,322,0,120
+1781893936658,335,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-3,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,332,0,121
+1781893936727,336,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,334,0,130
+1781893936345,836,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,828,0,119
+1781893936854,331,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,330,0,135
+1781893936843,361,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,360,0,147
+1781893936992,384,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,384,0,183
+1781893936975,412,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,412,0,201
+1781893936997,401,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,400,0,180
+1781893936998,405,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-8,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,404,0,191
+1781893937064,397,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,396,0,194
+1781893937186,310,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,310,0,120
+1781893937186,317,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,316,0,123
+1781893937208,307,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,307,0,116
+1781893937381,319,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,319,0,126
+1781893937400,315,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,406,171,8,8,https://playground.calidadsinhumo.com/api/progress,315,0,119
+1781893937389,331,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,331,0,128
+1781893937406,322,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,835,248,8,8,https://playground.calidadsinhumo.com/api/login,322,0,124
+1781893937463,316,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-7,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,315,0,123
+1781893937499,401,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-5,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,400,0,199
+1781893937521,379,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,378,0,177
+1781893937505,395,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,394,0,193
+1781893937720,310,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-2,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,308,0,118
+1781893937716,321,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,321,0,116
+1781893937729,329,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,329,0,122
+1781893937704,398,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-1,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,396,0,122
+1781893937780,328,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,328,0,127
+1781893937901,313,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-4,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,313,0,121
+1781893937901,320,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-6,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,319,0,126
+1781893937901,324,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,322,0,126
+1781893938039,378,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-3,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,377,0,182
+1781893938031,396,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,394,0,190
+1781893938059,372,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,371,0,163
+1781893938009,422,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-9,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,421,0,224
+1781893938104,393,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,392,0,199
+1781893938109,400,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,399,0,196
+1781893938221,322,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,322,0,120
+1781893938216,331,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,331,0,114
+1781893938229,322,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,321,0,123
+1781893938418,325,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,323,0,116
+1781893938432,314,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-8,text,true,,922,301,9,9,https://playground.calidadsinhumo.com/api/register,314,0,119
+1781893938427,320,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,320,0,122
+1781893938432,340,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,835,248,9,9,https://playground.calidadsinhumo.com/api/login,340,0,131
+1781893938498,314,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,314,0,120
+1781893938509,309,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,309,0,118
+1781893938548,387,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,387,0,196
+1781893938551,385,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,385,0,193
+1781893938543,404,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,403,0,201
+1781893938747,309,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,835,248,10,10,https://playground.calidadsinhumo.com/api/login,309,0,118
+1781893938747,320,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,406,171,10,10,https://playground.calidadsinhumo.com/api/progress,320,0,129
+1781893938747,334,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-2,text,true,,1032,216,10,10,https://playground.calidadsinhumo.com/api/enroll,333,0,122
+1781893938773,337,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,406,171,9,9,https://playground.calidadsinhumo.com/api/progress,336,0,135
+1781893938813,322,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-1,text,true,,1032,216,9,9,https://playground.calidadsinhumo.com/api/enroll,322,0,123
+1781893938818,322,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-7,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,322,0,119
+1781893938937,327,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-5,text,true,,922,301,8,8,https://playground.calidadsinhumo.com/api/register,327,0,123
+1781893938937,327,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,327,0,118
+1781893938949,315,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,315,0,112
+1781893939003,323,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-10,text,true,,925,302,8,8,https://playground.calidadsinhumo.com/api/register,320,0,119
+1781893939111,352,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,352,0,156
+1781893939068,395,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-3,text,true,,1032,216,8,8,https://playground.calidadsinhumo.com/api/enroll,395,0,200
+1781893939060,412,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,412,0,208
+1781893939141,410,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,410,0,216
+1781893939267,338,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,338,0,149
+1781893939267,338,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-4,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,338,0,144
+1781893939267,348,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-6,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,348,0,145
+1781893939354,307,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,306,0,116
+1781893939464,351,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-9,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,350,0,136
+1781893939475,348,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,346,0,138
+1781893939553,320,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,320,0,122
+1781893939618,360,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,360,0,172
+1781893939609,373,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,373,0,181
+1781893939609,384,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,383,0,181
+1781893939662,376,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,376,0,178
+1781893939816,313,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,312,0,115
+1781893939824,315,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-8,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,314,0,116
+1781893939979,344,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,340,0,120
+1781893939993,330,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,327,0,119
+1781893939983,340,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,335,0,120
+1781893939874,481,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,480,0,129
+1781893940038,319,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,318,0,122
+1781893940139,374,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,835,248,7,7,https://playground.calidadsinhumo.com/api/login,373,0,183
+1781893940130,443,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,406,171,7,7,https://playground.calidadsinhumo.com/api/progress,443,0,192
+1781893940325,321,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-5,text,true,,922,301,7,7,https://playground.calidadsinhumo.com/api/register,321,0,125
+1781893940325,332,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-4,text,true,,1032,216,7,7,https://playground.calidadsinhumo.com/api/enroll,332,0,125
+1781893940325,339,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,339,0,125
+1781893940357,324,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-7,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,324,0,132
+1781893940514,322,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,321,0,123
+1781893940358,478,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-10,text,true,,925,302,6,6,https://playground.calidadsinhumo.com/api/register,477,0,131
+1781893940574,324,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,324,0,126
+1781893940665,372,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-6,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,371,0,173
+1781893940647,391,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,391,0,191
+1781893940681,365,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,365,0,157
+1781893940836,323,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,322,0,129
+1781893940837,330,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,330,0,128
+1781893940898,323,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-9,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,322,0,121
+1781893941039,325,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,323,0,121
+1781893941038,326,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,325,0,124
+1781893941046,319,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,319,0,122
+1781893941168,393,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,406,171,6,6,https://playground.calidadsinhumo.com/api/progress,393,0,198
+1781893941221,343,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,835,248,6,6,https://playground.calidadsinhumo.com/api/login,343,0,146
+1781893941159,405,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-8,text,true,,922,301,6,6,https://playground.calidadsinhumo.com/api/register,405,0,207
+1781893941365,312,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-5,text,true,,1032,216,6,6,https://playground.calidadsinhumo.com/api/enroll,312,0,115
+1781893941365,316,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,315,0,115
+1781893941365,322,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,322,0,116
+1781893941565,318,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,835,248,5,5,https://playground.calidadsinhumo.com/api/login,317,0,112
+1781893941562,321,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,320,0,114
+1781893941565,321,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,406,171,5,5,https://playground.calidadsinhumo.com/api/progress,320,0,116
+1781893941687,399,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-6,text,true,,1032,216,5,5,https://playground.calidadsinhumo.com/api/enroll,399,0,197
+1781893941681,424,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-7,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,424,0,203
+1781893941884,322,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,321,0,122
+1781893941884,324,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-10,text,true,,925,302,4,4,https://playground.calidadsinhumo.com/api/register,323,0,122
+1781893941887,332,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,332,0,123
+1781893942106,314,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,314,0,127
+1781893942209,401,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,400,0,207
+1781893942226,387,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-9,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,385,0,190
+1781893942209,425,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,423,0,207
+1781893942422,306,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,306,0,119
+1781893942614,322,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,835,248,4,4,https://playground.calidadsinhumo.com/api/login,318,0,119
+1781893942613,322,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,406,171,4,4,https://playground.calidadsinhumo.com/api/progress,319,0,114
+1781893942635,317,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-8,text,true,,922,301,4,4,https://playground.calidadsinhumo.com/api/register,317,0,118
+1781893942729,396,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-7,text,true,,1032,216,4,4,https://playground.calidadsinhumo.com/api/enroll,396,0,117
+1781893942936,313,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,313,0,118
+1781893942936,319,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,318,0,118
+1781893942954,319,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,318,0,120
+1781893943251,397,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-10,text,true,,925,302,3,3,https://playground.calidadsinhumo.com/api/register,397,0,119
+1781893943256,399,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,399,0,204
+1781893943275,380,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,406,171,3,3,https://playground.calidadsinhumo.com/api/progress,380,0,185
+1781893943656,329,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-9,text,true,,922,301,3,3,https://playground.calidadsinhumo.com/api/register,329,0,116
+1781893943649,336,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,835,248,3,3,https://playground.calidadsinhumo.com/api/login,336,0,125
+1781893943655,333,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-8,text,true,,1032,216,3,3,https://playground.calidadsinhumo.com/api/enroll,333,0,115
+1781893943987,333,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,406,171,2,2,https://playground.calidadsinhumo.com/api/progress,324,0,122
+1781893943986,339,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,835,248,2,2,https://playground.calidadsinhumo.com/api/login,336,0,126
+1781893944324,388,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,1032,216,2,2,https://playground.calidadsinhumo.com/api/enroll,386,0,193
+1781893944332,388,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,406,171,2,2,https://playground.calidadsinhumo.com/api/progress,388,0,185
+1781893944721,311,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-9,text,true,,1032,216,2,2,https://playground.calidadsinhumo.com/api/enroll,310,0,120
+1781893944715,317,01 - POST Registro,201,Created,Usuarios Academia Sin Humo 1-10,text,true,,925,302,2,2,https://playground.calidadsinhumo.com/api/register,316,0,125
+1781893945034,314,02 - POST Login,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,835,248,1,1,https://playground.calidadsinhumo.com/api/login,313,0,119
+1781893945350,407,03 - GET Consulta progreso,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,406,171,1,1,https://playground.calidadsinhumo.com/api/progress,406,0,205
+1781893945758,321,04 - POST Inscripcion,200,OK,Usuarios Academia Sin Humo 1-10,text,true,,1032,216,1,1,https://playground.calidadsinhumo.com/api/enroll,320,0,115
