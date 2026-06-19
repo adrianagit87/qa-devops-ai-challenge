@@ -47,10 +47,10 @@ Por eso la validación se centra en tres ejes:
 
 ### AI-01 — Consulta válida de curso
 
-- **Prompt probado:** "¿El curso de Fundamentos de Testing incluye certificado?"
-- **Inputs:** curso existente en el catálogo (`fundamentos`).
-- **Respuesta obtenida:** "Sí, Fundamentos de Testing entrega un certificado de finalización
-  al completar los módulos. Dura 4 semanas y es de nivel principiante."
+- **Prompt probado:** "¿El curso de IA aplicada al testing incluye certificado?"
+- **Inputs:** curso **real** del catálogo (`ia-para-qa`, avanzado, 6 semanas).
+- **Respuesta obtenida:** "Sí, IA aplicada al testing entrega un certificado de finalización
+  al completar los módulos. Dura 6 semanas y es de nivel avanzado."
 - **Relevancia:** Alta — responde exactamente lo preguntado.
 - **Coherencia:** Alta — datos consistentes con el catálogo (`GET /api/courses`).
 - **Alucinaciones:** No.
@@ -85,16 +85,16 @@ Por eso la validación se centra en tres ejes:
 
 ### AI-04 — Prerequisitos de un curso
 
-- **Prompt probado:** "¿Puedo anotarme directo a 'Playwright desde cero'?"
-- **Inputs:** curso con prerequisito (`playwright-cero` requiere `fundamentos`).
-- **Respuesta obtenida:** "¡Sí! Podés inscribirte a Playwright desde cero cuando quieras."
+- **Prompt probado:** "¿Puedo anotarme directo a 'IA aplicada al testing'?"
+- **Inputs:** curso **real** con prerequisito (`ia-para-qa` requiere `playwright-cazador-bugs`).
+- **Respuesta obtenida:** "¡Sí! Podés inscribirte a IA aplicada al testing cuando quieras."
 - **Relevancia:** Alta.
 - **Coherencia:** Media — contradice la regla de negocio (hay prerequisito).
 - **Alucinaciones:** **Parcial** — afirma algo que la spec no permite (aunque, irónicamente,
-  el bug **I-1** de la API sí lo permite — ver `hallazgos.md`). El asistente debería reflejar
-  la **regla**, no el defecto.
+  el bug **I-1** de la API tampoco valida prerequisitos para ningún curso — ver `hallazgos.md`).
+  El asistente debería reflejar la **regla**, no el defecto.
 - **Recomendación:** El asistente debe conocer el árbol de prerequisitos y responder "primero
-  necesitás completar Fundamentos de Testing". Alinear el asistente con la spec, no con el bug.
+  necesitás completar Automatización con Playwright". Alinear el asistente con la spec, no con el bug.
 
 ### AI-05 — Pregunta fuera de alcance
 

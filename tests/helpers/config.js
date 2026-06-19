@@ -27,8 +27,11 @@ export const INVALID_USER = {
 };
 
 /**
- * Cursos reales del catálogo (GET /api/courses).
- * `prerequisiteId` define el árbol de dependencias entre cursos.
+ * Cursos de PLAYGROUND (fixtures de práctica QA, sin contenido). Son los objetivos
+ * de las pruebas: aquí viven los bugs intencionales. `prerequisiteId` define el árbol
+ * de dependencias entre cursos. (Los 3 cursos REALES con contenido —
+ * playwright-cazador-bugs, ia-para-qa, api-cazador-bugs — no se usan como objetivo de
+ * los tests de bugs, justamente por ser los productos reales de la academia.)
  */
 export const COURSES = {
   fundamentos: { id: 'fundamentos', prerequisiteId: null }, // curso raíz, sin prerequisito

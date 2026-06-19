@@ -30,7 +30,11 @@ Reglas que la app define y contra las que se prueba:
 - **Login:** bloqueo de la cuenta al **5º** intento fallido, por **30 segundos**. (REQ-L03, REQ-L04)
 - **Inscripción:** un curso con prerequisito solo se puede tomar si el prerequisito está
   **completado**; si no hay cupos, el estado es "lista-espera". (REQ-A02, REQ-C05)
-- **Cursos:** forman un árbol de prerequisitos (`fundamentos` → `playwright-cero` → …).
+- **Cursos:** el catálogo (`GET /api/courses`) tiene **9 cursos**: **3 reales** con contenido
+  (`playwright-cazador-bugs`, `ia-para-qa`, `api-cazador-bugs`) y **6 de playground** sin
+  contenido (`fundamentos`, `playwright-cero`, `diseno-casos`, `api-testing`, `ci-cd-qa`,
+  `liderazgo-qa`). Los de playground son los **objetivos de prueba** (donde viven los bugs) y
+  forman un árbol de prerequisitos (`fundamentos` → `playwright-cero` → …).
 
 ## 4. Tipos de prueba
 

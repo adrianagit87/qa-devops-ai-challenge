@@ -25,11 +25,12 @@ Construir un proceso automatizado que valide la calidad **antes** de integrar ca
 
 ## 🏫 Aplicación bajo prueba: Academia Sin Humo
 
-**Academia Sin Humo** es una academia online de cursos de automatización y QA. Además de su
-catálogo de cursos, funciona como **playground de práctica**: contiene *bugs intencionales*
-para que quien estudia los cace aplicando técnicas de diseño de pruebas. Eso la convierte en
-un objetivo ideal para un portafolio QA real — acá no solo verificamos que algo funciona,
-también **demostramos los defectos** con evidencia reproducible.
+**Academia Sin Humo** es una academia online de cursos de automatización y QA. Ofrece **3
+cursos reales** (con contenido) y, además, un conjunto de **cursos de playground** que NO
+tienen contenido: son *fixtures de práctica* con *bugs intencionales* para que quien estudia
+los cace aplicando técnicas de diseño de pruebas. Eso la convierte en un objetivo ideal para
+un portafolio QA real — acá no solo verificamos que algo funciona, también **demostramos los
+defectos** con evidencia reproducible.
 
 En el escenario del reto, Academia Sin Humo cumple el rol de la "QA Store": consultar
 productos (cursos), iniciar sesión y simular una compra (inscripción).
@@ -46,11 +47,20 @@ productos (cursos), iniciar sesión y simular una compra (inscripción).
 
 **Base URL:** `https://playground.calidadsinhumo.com/api`
 
-### Catálogo real (extracto)
+### Catálogo de cursos (`GET /api/courses` → 9 cursos)
 
-`fundamentos` → `playwright-cero` → `api-testing` / `ci-cd-qa`, más `diseno-casos` y
-`liderazgo-qa`. Los cursos forman un árbol de **prerequisitos** (un curso se desbloquea al
-completar el anterior) — regla de negocio clave que uno de los bugs permite saltar.
+**Cursos reales (con contenido):**
+
+| id | Curso | Nivel |
+| -- | ----- | ----- |
+| `playwright-cazador-bugs` | Automatización con Playwright: de cero a cazador de bugs | Intermedio |
+| `ia-para-qa` | IA aplicada al testing | Avanzado |
+| `api-cazador-bugs` | API Testing con Playwright: caza bugs bajo la UI | Avanzado |
+
+**Cursos de playground (práctica, sin contenido):** `fundamentos`, `playwright-cero`,
+`diseno-casos`, `api-testing`, `ci-cd-qa`, `liderazgo-qa`. Son los **objetivos de las pruebas
+QA**: forman un árbol de **prerequisitos** (un curso se desbloquea al completar el anterior)
+y es donde viven los bugs intencionales que cazamos en este proyecto.
 
 ## 🐞 Bugs encontrados
 

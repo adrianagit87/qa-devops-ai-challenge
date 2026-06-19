@@ -21,4 +21,16 @@ describe('GET /api/courses (catálogo de cursos)', () => {
     assert.equal(curso.prerequisiteId, null, 'fundamentos es curso raíz, sin prerequisito');
     assert.ok(['principiante', 'intermedio', 'avanzado'].includes(curso.level));
   });
+
+  test('el catálogo incluye los 3 cursos reales con contenido', async () => {
+    const { data } = await getJson('/courses');
+    const reales = ['playwright-cazador-bugs', 'ia-para-qa', 'api-cazador-bugs'];
+
+    for (const id of reales) {
+      assert.ok(
+        data.courses.some((c) => c.id === id),
+        `el catálogo debe incluir el curso real "${id}"`,
+      );
+    }
+  });
 });

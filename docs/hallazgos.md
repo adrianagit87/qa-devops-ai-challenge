@@ -9,6 +9,11 @@ contiene bugs intencionales; este documento los reporta con técnica de diseño 
 > contra el playground desplegado y están cubiertos por tests automatizados en
 > `tests/api/bugs.test.js` (marcados como `todo` / defecto conocido).
 
+> **Nota sobre los datos de prueba:** los bugs se reproducen sobre los **cursos de
+> playground** (`fundamentos`, `playwright-cero`, `api-testing`, …), que son fixtures de
+> práctica sin contenido. Los 3 cursos reales de la academia (`playwright-cazador-bugs`,
+> `ia-para-qa`, `api-cazador-bugs`) no se usan como objetivo de la caza de bugs.
+
 ## Resumen
 
 | Severidad | Cantidad | IDs |
