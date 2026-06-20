@@ -167,8 +167,8 @@ consigna de **revisión y ajuste humano**.
 
 ### Qué ajustes se realizaron
 
-- Se reescribió toda la documentación, que inicialmente describía una "QA Store" genérica,
-  para reflejar la app **real** (Academia Sin Humo) con sus cursos, reglas y bugs reales.
+- Se reescribió toda la documentación, que inicialmente describía una tienda genérica del
+  escenario, para reflejar la app **real** (Academia Sin Humo) con sus cursos, reglas y bugs.
 - Se corrigió el `.gitignore` (excluía evidencia que el reto exige versionar).
 - Se ajustó el comando de tests (`node --test` requería un glob, no un directorio).
 - Se corrigió la sintaxis del `.gitleaks.toml` (se había usado sintaxis YAML en un TOML).
