@@ -158,14 +158,17 @@ consigna de **revisión y ajuste humano**.
 
 ### Qué fue revisado manualmente
 
-- **Todo se verificó ejecutando requests reales** contra el playground antes de escribirlo.
-  Los 6 bugs documentados (R-1, R-2, L-1, L-2, I-1, I-3) fueron **reproducidos en vivo** con
-  `curl` y cubiertos por tests automatizados — no se asumió ninguno desde el código.
+- **Los datos y los bugs se verificaron ejecutando requests reales** contra el playground
+  antes de escribirlos. Los 6 bugs documentados (R-1, R-2, L-1, L-2, I-1, I-3) fueron
+  **reproducidos en vivo** con `curl` y cubiertos por tests automatizados — no se asumió
+  ninguno desde el código.
 - Los números de performance (K6 p95=571ms, JMeter p95=483ms) provienen de ejecuciones reales.
 - Las credenciales: se confirmó que la credencial personal daba 401 y se descartó del repo;
   solo se versionaron las credenciales de **demo públicas**.
 
 ### Qué ajustes se realizaron
+
+**Ajustes técnicos (durante la construcción):**
 
 - Se reescribió toda la documentación, que inicialmente describía una tienda genérica del
   escenario, para reflejar la app **real** (Academia Sin Humo) con sus cursos, reglas y bugs.
@@ -175,11 +178,32 @@ consigna de **revisión y ajuste humano**.
 - Para el bug L-1 (rate-limit), se implementó un cliente con cookie de sesión, porque el
   contador de intentos es por sesión y no se reproduce con requests sueltos.
 
+**Errores de la IA detectados por revisión humana (lo más importante):**
+
+Varias afirmaciones generadas por la IA eran plausibles pero **incorrectas**, y se
+corrigieron recién al revisarlas contra la fuente real:
+
+- **Conteo de bugs:** la IA documentó "18 defectos" cuando la fuente (`bugs.ts`) tiene
+  exactamente **17**. Corregido tras contar manualmente.
+- **Cursos reales vs. playground:** la IA llamó "catálogo real" a los cursos de práctica.
+  Se distinguió que solo **3 cursos son reales** (con contenido) y 6 son de playground.
+- **Asistente de IA inexistente:** la IA redactó la matriz como si Academia Sin Humo
+  **tuviera** un asistente LLM en producción. **No lo tiene.** Se reencuadró como un
+  escenario **simulado** (que es lo que pide la Parte 7).
+- **Referencias residuales:** quedaron menciones a la "QA Store" genérica (en el `.jmx`,
+  RESULTS y `package.json`) tras el primer realineado; se detectaron y limpiaron.
+- **Identidad de autor:** los commits salían con una identidad de trabajo equivocada; se
+  reescribió la autoría al usuario correcto.
+- **Evidencia faltante:** la carpeta de capturas estaba vacía; se agregaron capturas reales
+  del pipeline en verde y del dashboard de JMeter.
+
 ### Limitaciones encontradas
 
 - Las respuestas del asistente de IA son **representativas**, no salidas de un modelo
-  productivo auditado: el reto pide demostrar el método de evaluación.
-- La IA tiende a generar texto seguro aunque el dato sea incorrecto; por eso **toda
-  afirmación técnica se validó contra la fuente** (la API real) antes de darla por buena.
-  El caso AI-03 (alucinación) y el AI-04 (regla vs. bug) son la misma lección aplicada a
-  nuestro propio trabajo: no confiar en lo plausible, verificar contra la realidad.
+  productivo: el reto pide demostrar el método de evaluación sobre una funcionalidad simulada.
+- **La IA tiende a generar texto seguro aunque el dato sea incorrecto.** Esta es la lección
+  central de esta sección: los errores de arriba (conteo, cursos, asistente inexistente) son
+  el mismo patrón que el caso **AI-03** (alucinación) aplicado a nuestro propio trabajo. La
+  diferencia la hizo la **revisión humana**: la IA propone y redacta, pero **la persona
+  verifica contra la fuente, cuestiona y corrige**. Sin esa revisión, varios datos falsos
+  habrían quedado en la entrega. Ese es, exactamente, el uso responsable de IA.
